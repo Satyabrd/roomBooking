@@ -1,0 +1,21 @@
+.entity{
+    margin-right: 150px;
+    margin-top: 10px;
+    color: blue;
+}
+.iconSpace{
+    margin-right:20px;
+}
+.blueIcon{
+    color: blue;
+}
+.redIcon{
+    color: red;
+}
+.buttonGroup{
+    float:right;
+}
+.lineElem{
+    display: flex; 
+    justify-content: space-between;
+}
