@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import Icon from '@material-ui/core/Icon';
 import IconButton from '@material-ui/core/IconButton';
-import './line.css'
+import css from './line.less'
 import { $CombinedState } from 'redux';
 import RemoveCircleIcon from '@material-ui/icons/RemoveCircle';
 import $ from 'jquery'
@@ -32,8 +32,9 @@ class Line extends Component{
     }*/
     
     render(){
+        const baseclass = css
         return(
-            <div>
+            <div classname={baseclass}>
                 <div className="lineElem">
                     <span>
                         <Icon className="iconSpace blueIcon">{this.props.entityIcon}</Icon>

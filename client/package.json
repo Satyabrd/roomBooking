@@ -12,6 +12,8 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
+    "less": "^4.1.1",
+    "less.js": "^3.0.5",
     "material-table": "^1.68.0",
     "moment": "^2.27.0",
     "react": "^16.13.1",

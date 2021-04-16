@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import Line from '../common/line'
+import Line from '../common/lines/linehook'
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
